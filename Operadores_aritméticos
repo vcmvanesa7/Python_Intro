@@ -1,6 +1,6 @@
-#01.0
+#1 Nombre y edad
 #Pide al usuario su nombre y edad, y muestra un mensaje que diga:
-#📌 "Hola [nombre], tienes [edad] años."
+# "Hola [nombre], tienes [edad] años."
 
 #Pedir datos al usuario
 nombre = (input("Por favor escribe tu nombre: "))
@@ -8,3 +8,49 @@ edad = int(input("¿Cuántos años tienes? "))
 
 #Imprimir datos
 print ("Hola" , nombre , ", tienes" , edad , "años.")
+
+
+
+#2 Suma de dos números enteros
+#Pide dos números enteros y muestra la suma de ambos.
+
+#Pedir datos al usuario
+num1 = int(input("Ingresa el primero número 'entero': "))
+num2 = int(input("Ingresa el segundo número 'entero': "))
+
+#Imprimir suma de los números
+print ("La suma es: ", num1 + num2)
+
+
+
+#3 Multiplicación de decimales
+#Pide dos números decimales (float) y muestra su multiplicación.
+
+#Pedir 2 números decimales al usuario
+num1 = float(input("Ingresa el primer número decimal a multiplicar: "))
+num2 = float(input("Ingresa el segundo número decimal a multiplicar: "))
+
+#Imprimir su multiplicación
+print ("El resultado de la multiplicación es: " , num1 * num2)
+
+
+
+#4. Doble y triple
+#Pide un número entero y muestra el doble y el triple de ese número, separados por coma.
+
+#Pedir el ingreso de un número entero
+num = int(input("Ingresa un número entero: "))
+
+#Doble y triple de un número
+doble = num * 2
+triple = num * 3
+
+#imprimir soble y triple del número ingresado
+print ("El doble del número es",doble,"y el triple es" ,triple )
+print (doble , "," , triple)
+
+
+
+
+
+
