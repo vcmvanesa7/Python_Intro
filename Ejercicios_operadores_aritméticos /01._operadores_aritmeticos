@@ -1,3 +1,5 @@
+# 01._operadores_aritmeticos
+
 #1 Nombre y edad
 #Pide al usuario su nombre y edad, y muestra un mensaje que diga:
 # "Hola [nombre], tienes [edad] años."
