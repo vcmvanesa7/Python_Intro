@@ -227,7 +227,7 @@ print (f"¿El primer número es menor o igual al segundo número? {primero_menor
 num1 = int(input("Ingresa el primer número a comparar: "))
 num2 = int(input("Ingresa el segundo número a comparar: "))
 
-#comparación
+#Validar si ambos mayores que 10
 ambos_mayores = num1 > 10 and num2 > 10
 
 #imprimir resultado
@@ -243,7 +243,7 @@ print (f"¿Ambos números son mayores que 10? {ambos_mayores}")
 num1 = int(input("Ingresa el primer número a comparar: "))
 num2 = int(input("Ingresa el segundo número a comparar: "))
 
-#comparación
+#Validad si al menos 1 es mayor que 10
 almenos1_mayor10 = num1 > 10 or num2 > 10
 
 #imprimir resultado
@@ -283,8 +283,19 @@ print (f"El promedio de los tres números es: {redondeado}")
 
 
 
+#20. Divisible por 5
+#Pide un número entero y muestra si es divisible entre 5 (usar % y ==).
 
+# Igresar número
+print ("Número divisible entre 5: ")
+numero = int(input("Escribe un número entero: "))
 
+# Crear una lista con los dos posibles mensajes
+mensajes = ["No es divisible entre 5", "¡Sí es divisible entre 5!"]
+
+# El resultado de (numero % 5 == 0) es True o False, que equivale a 1 o 0
+# Lo usamos como índice de la lista
+print(mensajes[numero % 5 == 0])
 
 
 
