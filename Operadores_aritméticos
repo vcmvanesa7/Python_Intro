@@ -35,7 +35,7 @@ print ("El resultado de la multiplicación es: " , num1 * num2)
 
 
 
-#4. Doble y triple
+#4 Doble y triple
 #Pide un número entero y muestra el doble y el triple de ese número, separados por coma.
 
 #Pedir el ingreso de un número entero
@@ -48,6 +48,52 @@ triple = num * 3
 #imprimir soble y triple del número ingresado
 print ("El doble del número es",doble,"y el triple es" ,triple )
 print (doble , "," , triple)
+
+
+
+#5 Repetir palabra
+#Pide al usuario una palabra y un número entero. Muestra la palabra repetida ese número de veces.
+
+# Pedir ingresar una palabra y un número entero
+palabra = (input("Ingrese una palabra: "))
+repeticiones = int(input("cuántas veces quieres repertir la palabra (ingresa un número entero): "))
+
+#multiplicación
+resultado = (palabra + " ") * repeticiones
+
+#Impresión de las palabras respetidas
+print (resultado)
+
+
+
+#6 División
+#Pide al usuario dos números y muestra el resultado de dividir el primero entre el segundo.
+
+#Ingreso de dos números
+num1 = float(input("Ingresa el primer número a dividir: "))
+num2 = float(input("Ingresa el segundo número a dividir: "))
+
+#diviisón de dos números
+resultado = num1 / num2
+
+#imprimir resultado
+print ("El resultado de la división es: " , resultado)
+
+
+
+#7. Letras del nombre
+#Pide al usuario su nombre y muestra cuántas letras tiene.
+
+#pedir nombre 
+nombre = (input("Ingresa tu nombre: "))
+
+#Contar letras con len y eliminar espacios con replace
+nombreSinEspacio = len(nombre.replace(" ",""))
+
+#Imprimir número de letras del nombre, utilizar "f" para no utilizar "," o "+" para variables dentro del texto.
+print (f"Tu nombre tiene {nombreSinEspacio} letras.")
+
+
 
 
 
