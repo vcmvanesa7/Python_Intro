@@ -10,4 +10,4 @@ número_elevado2 = número ** 2
 número_elevado3 = número ** 3
 
 #Imprimir resultado con f-strings
-print(f"el resultado del número elevado a la 2 es: {número_elevado2} y el resultado del número elevado a la 3 es: {número_elevado3}")
+print(f"El resultado del número ^2 es: {número_elevado2} y el resultado del número ^3 es: {número_elevado3}")
