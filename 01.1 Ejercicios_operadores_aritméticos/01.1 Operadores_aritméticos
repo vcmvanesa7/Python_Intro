@@ -119,7 +119,7 @@ print (numero[0], numero [1], numero [2], numero [3], sep= ", ")
 
 
 
-#8. Formato de precio con dos decimales
+# 8. Formato de precio con dos decimales
 #Pide al usuario un precio (float) 
 # y muestra el resultado con dos decimales y símbolo de moneda (por ejemplo: $123.45).
 
@@ -130,7 +130,7 @@ print (f"El precio es: ${precio: .2f}")
 
 
 
-#9. Conversor de minutos a días y horas
+# 9. Conversor de minutos a días y horas
 #Pide una cantidad de minutos y muestra a cuántos días, horas y minutos equivale.
 
 #Pedir total minutos
@@ -145,5 +145,21 @@ minutos = Cantidad_minutos % 60
 print (f" '{Cantidad_minutos}' minutos equivalen a = {días} días/{horas} horas/{minutos} minuto(s).")
 
 
+# 10. Área y perímetro de un círculo
+#Pide el radio de un círculo y muestra el área y el perímetro (circunferencia).
+
+# Pedimos el radio al usuario
+radio = float(input("Ingresa el radio del círculo: "))
+
+# Usamos el valor aproximado de pi
+pi = 3.1416
+
+# Calculamos el área y el perímetro (circunferencia) 
+area = pi * radio ** 2
+perimetro = 2 * pi * radio
+
+# Mostramos los resultados 
+print(f"Área: {area:.2f}")
+print(f"Perímetro (circunferencia): {perimetro:.2f}")
 
 
