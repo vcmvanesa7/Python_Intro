@@ -116,3 +116,34 @@ numero = (input("ingresa un número de 4 cifras (ej. 1234:) "))
 
 # imprimir el número ingresado separa por comas
 print (numero[0], numero [1], numero [2], numero [3], sep= ", ")
+
+
+
+#8. Formato de precio con dos decimales
+#Pide al usuario un precio (float) 
+# y muestra el resultado con dos decimales y símbolo de moneda (por ejemplo: $123.45).
+
+#Pedir número decimal
+precio = float(input("Ingresa un precio 'decimal' ej 123.45: "))
+#Imprimir número con signo peso y con decimales.
+print (f"El precio es: ${precio: .2f}")
+
+
+
+#9. Conversor de minutos a días y horas
+#Pide una cantidad de minutos y muestra a cuántos días, horas y minutos equivale.
+
+#Pedir total minutos
+Cantidad_minutos = int(input("Ingresa la cantidad de minutos: "))
+
+#cálculos de días, horas y minutos
+días = Cantidad_minutos // 1440
+horas = (Cantidad_minutos % 1440) // 60
+minutos = Cantidad_minutos % 60
+
+#Imprimir laequivalencia a días, horas y minutos de la cantidad ingresada
+print (f" '{Cantidad_minutos}' minutos equivalen a = {días} días/{horas} horas/{minutos} minuto(s).")
+
+
+
+
