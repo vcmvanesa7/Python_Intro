@@ -1,7 +1,7 @@
 #Crea una lista vacía
 my_list = []
 
-#Lidta con valores iniciales
+#Lista con valores iniciales
 my_list = [1,2,3,4,5]
 
 #Acceder a elementos
